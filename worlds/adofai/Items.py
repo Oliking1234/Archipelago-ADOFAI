@@ -195,7 +195,7 @@ CrownWorldsKeys = {
     "Key_Level_XI-X": ItemData(54125540, "progression"),
 }
 
-StarWorldsTutoKeys = {
+MuseDashWorldsTutoKeys = {
     "Key_Level_MN-1": ItemData(54125541, "progression"),
     "Key_Level_MN-2": ItemData(54125542, "progression"),
     "Key_Level_MN-3": ItemData(54125543, "progression"),
@@ -214,13 +214,13 @@ StarWorldsTutoKeys = {
     "Key_Level_MO-3": ItemData(54125554, "progression"),
 }
 
-StarWorldsKeys = {
+MuseDashWorldsKeys = {
     "Key_Level_MN-X": ItemData(54125555, "progression"),
     "Key_Level_ML-X": ItemData(54125556, "progression"),
     "Key_Level_MO-X": ItemData(54125557, "progression"),
 }
 
-NeonCosmosWorldsTutoKeys = {
+NeoCosmosWorldsTutoKeys = {
     "Key_Level_T1-1": ItemData(54125558, "progression"),
     "Key_Level_T1-2": ItemData(54125559, "progression"),
     "Key_Level_T1-3": ItemData(54125560, "progression"),
@@ -258,7 +258,7 @@ NeonCosmosWorldsTutoKeys = {
     "Key_Level_T5-5": ItemData(54125588, "progression"),
 }
 
-NeonCosmosWorldsKeys = {
+NeoCosmosWorldsKeys = {
     "Key_Level_T1-X": ItemData(54125589, "progression"),
     "Key_Level_T2-X": ItemData(54125590, "progression"),
     "Key_Level_T3-X": ItemData(54125591, "progression"),
@@ -266,7 +266,7 @@ NeonCosmosWorldsKeys = {
     "Key_Level_T5-X": ItemData(54125593, "progression"),
 }
 
-NeonCosmosWorldsEXTutoKeys = {
+NeoCosmosWorldsEXTutoKeys = {
     "Key_Level_T1EX-1": ItemData(54125594, "progression"),
     "Key_Level_T1EX-2": ItemData(54125595, "progression"),
     "Key_Level_T1EX-3": ItemData(54125596, "progression"),
@@ -283,7 +283,7 @@ NeonCosmosWorldsEXTutoKeys = {
     "Key_Level_T4EX-4": ItemData(54125605, "progression"),
 }
 
-NeonCosmosWorldsEXKeys = {
+NeoCosmosWorldsEXKeys = {
     "Key_Level_T1EX-X": ItemData(54125606, "progression"),
     "Key_Level_T2EX-X": ItemData(54125607, "progression"),
     "Key_Level_T4EX-X": ItemData(54125608, "progression"),
@@ -300,11 +300,11 @@ AprilFoolsWorldsKeys = {
     "Key_Level_BJ-X": ItemData(54125616, "progression")
 }
 
-ARWorldKeys = {
+ARLibertasWorldKeys = {
     "Key_Level_AR-X": ItemData(54125617, "progression")
 }
 
-ARWorldTutoKeys = {
+ARLibertasWorldTutoKeys = {
     "Key_Level_AR-1": ItemData(54125618, "progression"),
     "Key_Level_AR-2": ItemData(54125619, "progression"),
     "Key_Level_AR-3": ItemData(54125620, "progression"),
