@@ -34,12 +34,12 @@ La configuration se fait depuis la **page des options joueur** :
 | **b_world_tuto** | Ajoute le tutoriel du monde B |
 | **crown_worlds** | Ajoute les mondes “Crown” |
 | **crown_worlds_tuto** | Ajoute les tutoriels des mondes “Crown” |
-| **star_worlds** | Ajoute les mondes “Star” |
-| **star_worlds_tuto** | Ajoute les tutoriels des mondes “Star” |
-| **neon_cosmos_worlds** | Ajoute les mondes “Neon Cosmos” standards |
-| **neon_cosmos_worlds_tuto** | Ajoute les tutoriels “Neon Cosmos” standards |
-| **neon_cosmos_worlds_ex** | Ajoute les mondes “Neon Cosmos EX” |
-| **neon_cosmos_worlds_ex_tuto** | Ajoute les tutoriels “Neon Cosmos EX” |
+| **muse_dash_worlds** | Ajoute les mondes “Muse Dash Collab” |
+| **muse_dash_worlds_tuto** | Ajoute les tutoriels des mondes “Muse Dash Collab” |
+| **neo_cosmos_worlds** | Ajoute les mondes “Neo Cosmos” standards |
+| **neo_cosmos_worlds_tuto** | Ajoute les tutoriels “Neo Cosmos” standards |
+| **neo_cosmos_worlds_ex** | Ajoute les mondes “Neo Cosmos EX” |
+| **neo_cosmos_worlds_ex_tuto** | Ajoute les tutoriels “Neo Cosmos EX” |
 | **april_fools_worlds** | Ajoute les mondes “April Fools” |
 | **cosmic_radio_worlds** | Ajoute les mondes “Cosmic Radio” (CE, CI) |
 | **cosmic_radio_worlds_tuto** | Ajoute les tutoriels des mondes “Cosmic Radio” |
