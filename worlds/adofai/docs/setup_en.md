@@ -34,12 +34,12 @@ Configuration is done from the **player options page**:
 | **b_world_tuto** | Adds tutorial for world B |
 | **crown_worlds** | Adds “Crown” worlds |
 | **crown_worlds_tuto** | Adds tutorials for “Crown” worlds |
-| **star_worlds** | Adds “Star” worlds |
-| **star_worlds_tuto** | Adds tutorials for “Star” worlds |
-| **neon_cosmos_worlds** | Adds standard “Neon Cosmos” worlds |
-| **neon_cosmos_worlds_tuto** | Adds standard “Neon Cosmos” tutorials |
-| **neon_cosmos_worlds_ex** | Adds “Neon Cosmos EX” worlds |
-| **neon_cosmos_worlds_ex_tuto** | Adds “Neon Cosmos EX” tutorials |
+| **muse_dash_worlds** | Adds “Muse Dash Collab” worlds |
+| **muse_dash_worlds_tuto** | Adds tutorials for “Muse Dash Collab” worlds |
+| **neo_cosmos_worlds** | Adds standard “Neon Cosmos” worlds |
+| **neo_cosmos_worlds_tuto** | Adds standard “Neon Cosmos” tutorials |
+| **neo_cosmos_worlds_ex** | Adds “Neo Cosmos EX” worlds |
+| **neo_cosmos_worlds_ex_tuto** | Adds “Neo Cosmos EX” tutorials |
 | **april_fools_worlds** | Adds “April Fools” worlds |
 | **cosmic_radio_worlds** | Adds “Cosmic Radio” worlds (CE, CI) |
 | **cosmic_radio_worlds_tuto** | Adds tutorials for “Cosmic Radio” worlds |
