@@ -208,7 +208,7 @@ CrownWorldsLoc = {
     "XI-X": LocData(98765558, "World XI"),
 }
 
-StarWorldsTutoLoc = {
+MuseDashWorldsTutoLoc = {
     "MN-1": LocData(98765559, "World MN"),
     "MN-2": LocData(98765560, "World MN"),
     "MN-3": LocData(98765561, "World MN"),
@@ -227,13 +227,13 @@ StarWorldsTutoLoc = {
     "MO-3": LocData(98765572, "World MO"),
 }
 
-StarWorldsLoc = {
+MuseDashWorldsLoc = {
     "MN-X": LocData(98765573, "World MN"),
     "ML-X": LocData(98765574, "World ML"),
     "MO-X": LocData(98765575, "World MO"),
 }
 
-NeonCosmosWorldsTutoLoc = {
+NeoCosmosWorldsTutoLoc = {
     "T1-1": LocData(98765576, "World T1"),
     "T1-2": LocData(98765577, "World T1"),
     "T1-3": LocData(98765578, "World T1"),
@@ -271,7 +271,7 @@ NeonCosmosWorldsTutoLoc = {
     "T5-5": LocData(98765606, "World T5"),
 }
 
-NeonCosmosWorldsLoc = {
+NeoCosmosWorldsLoc = {
     "T1-X": LocData(98765607, "World T1"),
     "T2-X": LocData(98765608, "World T2"),
     "T3-X": LocData(98765609, "World T3"),
@@ -279,7 +279,7 @@ NeonCosmosWorldsLoc = {
     "T5-X": LocData(98765611, "World T5"),
 }
 
-NeonCosmosWorldsEXTutoLoc = {
+NeoCosmosWorldsEXTutoLoc = {
     "T1EX-1": LocData(98765612, "World T1EX"),
     "T1EX-2": LocData(98765613, "World T1EX"),
     "T1EX-3": LocData(98765614, "World T1EX"),
@@ -296,7 +296,7 @@ NeonCosmosWorldsEXTutoLoc = {
     "T4EX-4": LocData(98765623, "World T4EX"),
 }
 
-NeonCosmosWorldsEXLoc = {
+NeoCosmosWorldsEXLoc = {
     "T1EX-X": LocData(98765624, "World T1EX"),
     "T2EX-X": LocData(98765625, "World T2EX"),
     "T4EX-X": LocData(98765626, "World T4EX"),
@@ -313,11 +313,11 @@ AprilFoolsWorldsLoc = {
     "BJ-X": LocData(98765634, "World B")
 }
 
-ARWorldLoc = {
+ARLibertasWorldLoc = {
     "AR-X": LocData(98765635, "World AR"),
 }
 
-ARWorldTutoLoc = {
+ARLibertasWorldTutoLoc = {
     "AR-1": LocData(98765636, "World AR"),
     "AR-2": LocData(98765637, "World AR"),
     "AR-3": LocData(98765638, "World AR"),
