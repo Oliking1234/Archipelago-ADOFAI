@@ -8,35 +8,35 @@ from Options import OptionError
 
 # Import des données
 from .Items import adofai_items, MainWorldsKeys, MainWorldsTutoKeys, OtherItems, XtraWorldsKeys, XtraTutoKeys
-from .Items import BWorldKeys, BWorldTutoKeys, CrownWorldsKeys, CrownWorldsTutoKeys, StarWorldsKeys, StarWorldsTutoKeys
-from .Items import NeonCosmosWorldsKeys, NeonCosmosWorldsTutoKeys, NeonCosmosWorldsEXKeys, NeonCosmosWorldsEXTutoKeys
+from .Items import BWorldKeys, BWorldTutoKeys, CrownWorldsKeys, CrownWorldsTutoKeys, MuseDashWorldsKeys, MuseDashWorldsTutoKeys
+from .Items import NeoCosmosWorldsKeys, NeoCosmosWorldsTutoKeys, NeoCosmosWorldsEXKeys, NeoCosmosWorldsEXTutoKeys
 from .Items import AprilFoolsWorldsKeys
-from .Items import ARWorldKeys, ARWorldTutoKeys
+from .Items import ARLibertasWorldKeys, ARLibertasWorldTutoKeys
 from .Items import CosmicRadioWorldsKeys, CosmicRadioWorldsTutoKeys, CosmicRadioWorldsEXKeys
 
 from .Locations import adofai_locations, MainWorldsLoc, MainWorldsTutoLoc, XtraWorldsLoc, XtraTutoLoc
-from .Locations import BWorldLoc, BWorldTutoLoc, CrownWorldsLoc, CrownWorldsTutoLoc, StarWorldsLoc, StarWorldsTutoLoc
-from .Locations import NeonCosmosWorldsLoc, NeonCosmosWorldsTutoLoc, NeonCosmosWorldsEXLoc, NeonCosmosWorldsEXTutoLoc
+from .Locations import BWorldLoc, BWorldTutoLoc, CrownWorldsLoc, CrownWorldsTutoLoc, MuseDashWorldsLoc, MuseDashWorldsTutoLoc
+from .Locations import NeoCosmosWorldsLoc, NeoCosmosWorldsTutoLoc, NeoCosmosWorldsEXLoc, NeoCosmosWorldsEXTutoLoc
 from .Locations import AprilFoolsWorldsLoc
-from .Locations import ARWorldLoc, ARWorldTutoLoc
+from .Locations import ARLibertasWorldLoc, ARLibertasWorldTutoLoc
 from .Locations import CosmicRadioWorldsLoc, CosmicRadioWorldsTutoLoc, CosmicRadioWorldsEXLoc
 from .Options import ADOFAIOptions
 
 
 all_items = adofai_items | MainWorldsKeys | MainWorldsTutoKeys | XtraTutoKeys | XtraWorldsKeys
 all_items = all_items | OtherItems | BWorldKeys | BWorldTutoKeys | CrownWorldsKeys | CrownWorldsTutoKeys
-all_items = all_items | StarWorldsKeys | StarWorldsTutoKeys | AprilFoolsWorldsKeys
-all_items = all_items | NeonCosmosWorldsKeys | NeonCosmosWorldsTutoKeys | NeonCosmosWorldsEXKeys | NeonCosmosWorldsEXTutoKeys
-all_items = all_items | ARWorldKeys | ARWorldTutoKeys
+all_items = all_items | MuseDashWorldsKeys | MuseDashWorldsTutoKeys | AprilFoolsWorldsKeys
+all_items = all_items | NeoCosmosWorldsKeys | NeoCosmosWorldsTutoKeys | NeoCosmosWorldsEXKeys | NeoCosmosWorldsEXTutoKeys
+all_items = all_items | ARLibertasWorldKeys | ARLibertasWorldTutoKeys
 all_items = all_items | CosmicRadioWorldsKeys | CosmicRadioWorldsTutoKeys | CosmicRadioWorldsEXKeys
 
 _item_name_to_id = {n: d.id for n, d in all_items.items()}
 
 all_locs = adofai_locations | MainWorldsLoc | MainWorldsTutoLoc | XtraTutoLoc | XtraWorldsLoc
 all_locs = all_locs | BWorldLoc | BWorldTutoLoc | CrownWorldsLoc | CrownWorldsTutoLoc
-all_locs = all_locs | StarWorldsLoc | StarWorldsTutoLoc | AprilFoolsWorldsLoc
-all_locs = all_locs | NeonCosmosWorldsLoc | NeonCosmosWorldsTutoLoc | NeonCosmosWorldsEXLoc | NeonCosmosWorldsEXTutoLoc
-all_locs = all_locs | ARWorldLoc | ARWorldTutoLoc
+all_locs = all_locs | MuseDashWorldsLoc | StarWorldsTutoLoc | AprilFoolsWorldsLoc
+all_locs = all_locs | NeoCosmosWorldsLoc | NeoCosmosWorldsTutoLoc | NeoCosmosWorldsEXLoc | NeoCosmosWorldsEXTutoLoc
+all_locs = all_locs | ARLibertasWorldLoc | ARLibertasWorldTutoLoc
 all_locs = all_locs | CosmicRadioWorldsLoc | CosmicRadioWorldsTutoLoc | CosmicRadioWorldsEXLoc
 
 _location_name_to_id = {n: d.id for n, d in all_locs.items()}
@@ -132,24 +132,24 @@ class ADOFAIWorld(World):
             used_items.update(CrownWorldsKeys)
         if self.options.crown_worlds_tuto.value:
             used_items.update(CrownWorldsTutoKeys)
-        if self.options.star_worlds.value:
-            used_items.update(StarWorldsKeys)
-        if self.options.star_worlds_tuto.value:
-            used_items.update(StarWorldsTutoKeys)
-        if self.options.neon_cosmos_worlds.value:
-            used_items.update(NeonCosmosWorldsKeys)
-        if self.options.neon_cosmos_worlds_tuto.value:
-            used_items.update(NeonCosmosWorldsTutoKeys)
-        if self.options.neon_cosmos_worlds_ex.value:
-            used_items.update(NeonCosmosWorldsEXKeys)
-        if self.options.neon_cosmos_worlds_ex_tuto.value:
-            used_items.update(NeonCosmosWorldsEXTutoKeys)
+        if self.options.muse_dash_worlds.value:
+            used_items.update(MuseDashWorldsKeys)
+        if self.options.muse_dash_worlds_tuto.value:
+            used_items.update(MuseDashWorldsTutoKeys)
+        if self.options.neo_cosmos_worlds.value:
+            used_items.update(NeoCosmosWorldsKeys)
+        if self.options.neo_cosmos_worlds_tuto.value:
+            used_items.update(NeoCosmosWorldsTutoKeys)
+        if self.options.neo_cosmos_worlds_ex.value:
+            used_items.update(NeoCosmosWorldsEXKeys)
+        if self.options.neo_cosmos_worlds_ex_tuto.value:
+            used_items.update(NeoCosmosWorldsEXTutoKeys)
         if self.options.april_fools_worlds.value:
             used_items.update(AprilFoolsWorldsKeys)
-        if self.options.ar_world.value:
-            used_items.update(ARWorldKeys)
-        if self.options.ar_world_tuto.value:
-            used_items.update(ARWorldTutoKeys)
+        if self.options.ar_libertas_world.value:
+            used_items.update(ARLibertasWorldKeys)
+        if self.options.ar_libertas_world_tuto.value:
+            used_items.update(ARLibertasWorldTutoKeys)
         if self.options.cosmic_radio_worlds.value:
             used_items.update(CosmicRadioWorldsKeys)
         if self.options.cosmic_radio_worlds_tuto.value:
@@ -204,15 +204,15 @@ class ADOFAIWorld(World):
             "b_world_tuto": bool(self.options.b_world_tuto.value),
             "crown_worlds": bool(self.options.crown_worlds.value),
             "crown_worlds_tuto": bool(self.options.crown_worlds_tuto.value),
-            "star_worlds": bool(self.options.star_worlds.value),
-            "star_worlds_tuto": bool(self.options.star_worlds_tuto.value),
-            "neon_cosmos_worlds": bool(self.options.neon_cosmos_worlds.value),
-            "neon_cosmos_worlds_tuto": bool(self.options.neon_cosmos_worlds_tuto.value),
-            "neon_cosmos_worlds_ex": bool(self.options.neon_cosmos_worlds_ex.value),
-            "neon_cosmos_worlds_ex_tuto": bool(self.options.neon_cosmos_worlds_ex_tuto.value),
+            "muse_dash_worlds": bool(self.options.muse_dash_worlds.value),
+            "muse_dash_worlds_tuto": bool(self.options.muse_dash_worlds_tuto.value),
+            "neo_cosmos_worlds": bool(self.options.neo_cosmos_worlds.value),
+            "neo_cosmos_worlds_tuto": bool(self.options.neo_cosmos_worlds_tuto.value),
+            "neo_cosmos_worlds_ex": bool(self.options.neo_cosmos_worlds_ex.value),
+            "neo_cosmos_worlds_ex_tuto": bool(self.options.neo_cosmos_worlds_ex_tuto.value),
             "april_fools_worlds": bool(self.options.april_fools_worlds.value),
-            "ar_world":bool(self.options.ar_world.value),
-            "ar_world_tuto":bool(self.options.ar_world_tuto.value),
+            "ar_libertas_world":bool(self.options.ar_libertas_world.value),
+            "ar_libertas_world_tuto":bool(self.options.ar_libertas_world_tuto.value),
             "cosmic_radio_worlds":bool(self.options.cosmic_radio_worlds.value),
             "cosmic_radio_worlds_tuto":bool(self.options.cosmic_radio_worlds_tuto.value),
             "cosmic_radio_worlds_ex":bool(self.options.cosmic_radio_worlds_ex.value)
@@ -236,24 +236,24 @@ class ADOFAIWorld(World):
             used_locs.update(CrownWorldsLoc)
         if self.options.crown_worlds_tuto.value:
             used_locs.update(CrownWorldsTutoLoc)
-        if self.options.star_worlds.value:
-            used_locs.update(StarWorldsLoc)
-        if self.options.star_worlds_tuto.value:
-            used_locs.update(StarWorldsTutoLoc)
-        if self.options.neon_cosmos_worlds.value:
-            used_locs.update(NeonCosmosWorldsLoc)
-        if self.options.neon_cosmos_worlds_tuto.value:
-            used_locs.update(NeonCosmosWorldsTutoLoc)
-        if self.options.neon_cosmos_worlds_ex.value:
-            used_locs.update(NeonCosmosWorldsEXLoc)
-        if self.options.neon_cosmos_worlds_ex_tuto.value:
-            used_locs.update(NeonCosmosWorldsEXTutoLoc)
+        if self.options.muse_dash_worlds.value:
+            used_locs.update(MuseDashWorldsLoc)
+        if self.options.muse_dash_worlds_tuto.value:
+            used_locs.update(MuseDashWorldsTutoLoc)
+        if self.options.neo_cosmos_worlds.value:
+            used_locs.update(NeoCosmosWorldsLoc)
+        if self.options.neo_cosmos_worlds_tuto.value:
+            used_locs.update(NeoCosmosWorldsTutoLoc)
+        if self.options.neo_cosmos_worlds_ex.value:
+            used_locs.update(NeoCosmosWorldsEXLoc)
+        if self.options.neo_cosmos_worlds_ex_tuto.value:
+            used_locs.update(NeoCosmosWorldsEXTutoLoc)
         if self.options.april_fools_worlds.value:
             used_locs.update(AprilFoolsWorldsLoc)
-        if self.options.ar_world.value:
-            used_locs.update(ARWorldLoc)
-        if self.options.ar_world_tuto.value:
-            used_locs.update(ARWorldTutoLoc)
+        if self.options.ar_libertas_world.value:
+            used_locs.update(ARLibertasWorldLoc)
+        if self.options.ar_libertas_world_tuto.value:
+            used_locs.update(ARLibertasWorldTutoLoc)
         if self.options.cosmic_radio_worlds.value:
             used_locs.update(CosmicRadioWorldsLoc)
         if self.options.cosmic_radio_worlds_tuto.value:
