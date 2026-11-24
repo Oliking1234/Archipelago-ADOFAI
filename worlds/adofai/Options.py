@@ -24,32 +24,32 @@ class CrownWorlds(Toggle):
 class CrownWorldsTuto(Toggle):
     display_name= "CronwWorldsTuto"
 
-class StarWorlds(Toggle):
-    display_name= "StarWorlds"
+class MuseDashWorlds(Toggle):
+    display_name= "MuseDashWorlds"
 
-class StarWorldsTuto(Toggle):
-    display_name= "StarWorldsTuto"
+class MuseDashWorldsTuto(Toggle):
+    display_name= "MuseDashWorldsTuto"
 
-class NeonCosmosWorlds(Toggle):
-    display_name= "NeonCosmosWorlds"
+class NeoCosmosWorlds(Toggle):
+    display_name= "NeoCosmosWorlds"
 
-class NeonCosmosWorldsTuto(Toggle):
-    display_name= "NeonCosmosWorldsTuto"
+class NeoCosmosWorldsTuto(Toggle):
+    display_name= "NeoCosmosWorldsTuto"
 
-class NeonCosmosWorldsEX(Toggle):
-    display_name= "NeonCosmosWorldsEX"
+class NeoCosmosWorldsEX(Toggle):
+    display_name= "NeoCosmosWorldsEX"
 
-class NeonCosmosWorldsEXTuto(Toggle):
-    display_name= "NeonCosmosWorldsEXTuto"
+class NeoCosmosWorldsEXTuto(Toggle):
+    display_name= "NeoCosmosWorldsEXTuto"
 
 class AprilFoolsWorlds(Toggle):
     display_name= "AprilFoolsWorlds"
 
-class ARWorld(Toggle):
-    display_name= "ARWorld"
+class ARLibertasWorld(Toggle):
+    display_name= "ARLibertasWorld"
 
-class ARWorldTuto(Toggle):
-    display_name= "ARWorldTuto"
+class ARLibertasWorldTuto(Toggle):
+    display_name= "ARLibertasWorldTuto"
 
 class CosmicRadioWorlds(Toggle):
     display_name= "CosmicRadioWorlds"
@@ -86,15 +86,15 @@ class ADOFAIOptions(PerGameCommonOptions):
     b_world_tuto: BWorldTuto
     crown_worlds: CrownWorlds
     crown_worlds_tuto: CrownWorldsTuto
-    star_worlds: StarWorlds
-    star_worlds_tuto: StarWorldsTuto
-    neon_cosmos_worlds: NeonCosmosWorlds
-    neon_cosmos_worlds_tuto: NeonCosmosWorldsTuto
-    neon_cosmos_worlds_ex: NeonCosmosWorldsEX
-    neon_cosmos_worlds_ex_tuto: NeonCosmosWorldsEXTuto
+    muse_dash_worlds: MuseDashWorlds
+    muse_dash_worlds_tuto: MuseDashWorldsTuto
+    neo_cosmos_worlds: NeoCosmosWorlds
+    neo_cosmos_worlds_tuto: NeoCosmosWorldsTuto
+    neo_cosmos_worlds_ex: NeoCosmosWorldsEX
+    neo_cosmos_worlds_ex_tuto: NeoCosmosWorldsEXTuto
     april_fools_worlds: AprilFoolsWorlds
-    ar_world: ARWorld
-    ar_world_tuto: ARWorldTuto
+    ar_libertas_world: ARLibertasWorld
+    ar_libertas_world_tuto: ARLibertasWorldTuto
     cosmic_radio_worlds: CosmicRadioWorlds
     cosmic_radio_worlds_tuto: CosmicRadioWorldsTuto
     cosmic_radio_worlds_ex: CosmicRadioWorldsEX
